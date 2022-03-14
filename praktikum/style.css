@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    height: 40px;
+    flex: 33%;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#grey {
+    background-color: grey;
+}
+
+@media screen and  (max-width: 960px) {
+    .content {
+        flex: 50%;
+    }
+}
+
+@media screen and  (max-width: 600px) {
+    .content {
+        flex: 100%;
+    }
+}
